@@ -10,5 +10,6 @@ namespace ToDoList.Data
         }
 
         public DbSet<LeadEntity> Leads { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }
